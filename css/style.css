@@ -1,5 +1,5 @@
 .main-body {
-  display: grid !important;
+  display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-areas:  "red red blue"
@@ -42,6 +42,6 @@
   .main-body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "blue blue" "yellow red" " white red" "orange green"
+    grid-template-areas: "green green" "yellow red" " white red" "orange blue"
   }
 }
