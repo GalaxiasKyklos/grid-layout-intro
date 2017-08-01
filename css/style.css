@@ -37,3 +37,11 @@
   grid-area: white;
   background-color: white;
 }
+
+@media (max-width: 768px) {
+  .main-body {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "blue blue" "yellow red" " white red" "orange green"
+  }
+}
