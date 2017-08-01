@@ -1,0 +1,39 @@
+.main-body {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-areas:  "red red blue"
+                        "green yellow blue"
+                        "green orange white";
+  height: 500px;
+}
+
+.red {
+  grid-area: red;
+  background-color: red;
+}
+
+.blue {
+  grid-area: blue;
+  background-color: blue;
+}
+
+.green {
+  grid-area: green;
+  background-color: green;
+}
+
+.yellow {
+  grid-area: yellow;
+  background-color: yellow;
+}
+
+.orange {
+  grid-area: orange;
+  background-color: orange;
+}
+
+.white {
+  grid-area: white;
+  background-color: white;
+}
